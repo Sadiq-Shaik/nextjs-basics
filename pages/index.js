@@ -78,7 +78,7 @@ export async function getStaticProps() {
       })),
     },
     // re pre-generate page after x seconds (i.e dont have redeploy for changes to be pre-generated)
-    revalidate: 10, //seconds
+    revalidate: 1, //seconds
   };
 }
 
