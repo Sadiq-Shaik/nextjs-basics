@@ -59,7 +59,7 @@ export async function getStaticPaths() {
         meetupId: meetup._id.toString(),
       },
     })),
-    fallback: false,
+    fallback: "blocking",
   };
 }
 
